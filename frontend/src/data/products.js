@@ -1,3 +1,18 @@
+import miniDonaDulceLeche from '../assets/products/mini-dona-dulce-leche.webp'
+import miniDonaChocolate from '../assets/products/mini-dona-chocolate.webp'
+import miniDonaLecherita from '../assets/products/mini-dona-lecherita.webp'
+import miniDonaCremaChantilly from '../assets/products/mini-dona-crema-chantilly.webp'
+import miniDonaCoberturaChocolate from '../assets/products/mini-dona-cobertura-chocolate.webp'
+import miniDonaNutella from '../assets/products/mini-dona-nutella.webp'
+import toppingMarshmello from '../assets/products/topping-marshmello.webp'
+import toppingOreoCrunch from '../assets/products/topping-oreo-crunch.webp'
+import toppingMani from '../assets/products/topping-mani.webp'
+import toppingLluviaColores from '../assets/products/topping-lluvia-colores.webp'
+import toppingFresas from '../assets/products/topping-fresas.webp'
+import toppingMm from '../assets/products/topping-mm.webp'
+import toppingPalitosChocolate from '../assets/products/topping-palitos-chocolate.webp'
+import toppingLluviaChocolate from '../assets/products/topping-lluvia-chocolate.webp'
+
 export const productCategories = [
   {
     name: 'Mini Donas Clasicas',
@@ -9,22 +24,19 @@ export const productCategories = [
         name: 'Mini dona de dulce de leche',
         description: 'Esponjosa, suave y con el toque dulce que nunca falla.',
         price: '1 x 2.000 COP | 3 x 5.000 COP',
-        image:
-          'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80',
+        image: miniDonaDulceLeche,
       },
       {
         name: 'Mini dona de chocolate',
         description: 'Cubierta cremosa con sabor intenso a chocolate clasico.',
         price: '1 x 2.000 COP | 3 x 5.000 COP',
-        image:
-          'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80',
+        image: miniDonaChocolate,
       },
       {
         name: 'Mini dona de lecherita',
         description: 'Dulce, delicada y con una cobertura que encanta.',
         price: '1 x 2.000 COP | 3 x 5.000 COP',
-        image:
-          'https://images.unsplash.com/photo-1514517220031-89f8a85ed3f6?auto=format&fit=crop&w=900&q=80',
+        image: miniDonaLecherita,
       },
     ],
   },
@@ -38,22 +50,19 @@ export const productCategories = [
         name: 'Mini dona rellena de crema chantilly',
         description: 'Ligera por fuera, cremosa por dentro y muy suave al paladar.',
         price: '1 x 2.000 COP | 3 x 5.000 COP',
-        image:
-          'https://images.unsplash.com/photo-1527904324834-3bda86da6771?auto=format&fit=crop&w=900&q=80',
+        image: miniDonaCremaChantilly,
       },
       {
         name: 'Mini dona con cobertura de chocolate',
         description: 'Una dona generosa con acabado brillante y sabor profundo.',
         price: '1 x 2.000 COP | 3 x 5.000 COP',
-        image:
-          'https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=900&q=80',
+        image: miniDonaCoberturaChocolate,
       },
       {
         name: 'Mini dona Nutella',
         description: 'Ideal para amantes del cacao y el relleno cremoso.',
         price: '1 x 2.000 COP | 3 x 5.000 COP',
-        image:
-          'https://images.unsplash.com/photo-1611241893603-3c359704e0ee?auto=format&fit=crop&w=900&q=80',
+        image: miniDonaNutella,
       },
     ],
   },
@@ -65,59 +74,51 @@ export const productCategories = [
     products: [
       {
         name: 'Marshmello',
-         description: 'Toque suave y dulce para una cubierta mas divertida.',
+        description: 'Toque suave y dulce para una cubierta mas divertida.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80',
+        image: toppingMarshmello,
       },
       {
         name: 'Oreo crunch',
         description: 'Galleta crocante para dar textura a tu dona.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80',
+        image: toppingOreoCrunch,
       },
       {
         name: 'Mani',
         description: 'Crujiente y tostado para contrastar con la cubierta.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=900&q=80',
+        image: toppingMani,
       },
       {
         name: 'Lluvia de colores',
         description: 'Clasica, alegre y perfecta para un acabado colorido.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1464306076886-da185f6a9d05?auto=format&fit=crop&w=900&q=80',
+        image: toppingLluviaColores,
       },
       {
         name: 'Fresas',
         description: 'Una opcion frutal con sabor fresco y dulce.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=900&q=80',
+        image: toppingFresas,
       },
       {
         name: 'M&M',
         description: 'Chocolates de colores para una cubierta mas divertida.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?auto=format&fit=crop&w=900&q=80',
+        image: toppingMm,
       },
       {
         name: 'Palitos de chocolate',
         description: 'Decoracion crocante con sabor extra a chocolate.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=900&q=80',
+        image: toppingPalitosChocolate,
       },
       {
         name: 'Lluvia de chocolate',
         description: 'Pequenos toques de chocolate para rematar cada pedido.',
         price: 'Relleno opcional sin costo extra',
-        image:
-          'https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=900&q=80',
+        image: toppingLluviaChocolate,
       },
     ],
   },

@@ -927,6 +927,17 @@ h3 {
   box-shadow: 0 12px 30px rgba(55, 22, 45, 0.12);
 }
 
+.qr-placeholder__image {
+  width: 160px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 1rem;
+  background: white;
+  border: 10px solid white;
+  box-shadow: 0 12px 30px rgba(55, 22, 45, 0.12);
+}
+
 .summary-card {
   align-self: start;
   position: sticky;

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import nequiQrImage from '../assets/payments/NEQUI-QR.JPG'
 
 const paymentOptions = ['Nequi QR', 'Nequi numero', 'Contra entrega']
 
@@ -237,9 +238,13 @@ function Order({ order, setOrder, products, toppings, businessPhone, nequiNumber
 
             {order.paymentMethod === 'Nequi QR' && (
               <div className="qr-placeholder">
-                <div className="qr-placeholder__grid"></div>
+                <img
+                  src={nequiQrImage}
+                  alt="Codigo QR de Nequi para pagos"
+                  className="qr-placeholder__image"
+                />
                 <div>
-                  <strong>Espacio para imagen QR</strong>
+                  <strong>QR de pago Nequi</strong>
                   <p>Escanea aqui tu codigo de pago Nequi.</p>
                 </div>
               </div>
